@@ -1,0 +1,13 @@
+{
+
+
+ dashboard: [
+  cards: [
+    waitTime: {
+     time: 5
+    }
+  ]
+
+ ]
+
+}
