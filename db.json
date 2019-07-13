@@ -62,7 +62,7 @@
         "latestChats": [
           {"name": "Jack Jonson", "type": "Repair", "status": "Active"},
           {"name": "Steve Park", "type": "ASB", "status": "Active"},
-          {"name": "Patrick Stevenson", "type": "Repair", "status": "Complete"}
+          {"name": "Patrick Stevenson", "type": "Repair", "status": "Complete"},
           {"name": "Yojan Yojan", "type": "Repair", "status": "Complete"}
         ]
       },
