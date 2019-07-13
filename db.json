@@ -1,11 +1,7 @@
 [
 {
  "dashboard": [
-  "cards": [
-    "waitTime": {
-     "time": 5
-    }
-  ]
+  "cards": [ {"waitTime": 5}]
  ]
 }
 ]
