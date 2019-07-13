@@ -1,14 +1,23 @@
-[{
-	"dashboard": [{
-		"cards": [{
-			"averageWaitTime": 5,
-			"averageToday": 3
-		}, {
-			"liveChatsQueue": 2
-		}, {
-			"activeBotChats": 10
-		}, {
-			"activeLiveChats": 4
-		}]
-	}]
-}]
+[
+  {
+    "dashboard": {
+      "cards": [{"averageWaitTime": 5, "averageToday": 3}, {"liveChatsQueue": 2}, {"activeBotChats": 10}, {"activeLiveChats": 4}],
+      "charts": [{
+        "volumesByChannel": {
+          "data": {
+            "labels": ["M", "T", "W", "T", "F", "S", "S"],
+            "series": [
+              [12, 17, 7, 17, 23, 18, 38],
+              [12, 23, 10, 17, 15, 18, 13],
+              [39, 31, 22, 17, 23, 18, 28]
+            ]
+          },
+          "options": {
+           "low": 0,
+           "high": 50
+        }
+        }
+      }]
+    }
+  }
+]
