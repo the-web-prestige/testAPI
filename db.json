@@ -1,7 +1,7 @@
 [
-{
- "dashboard": [
-  "cards": [ {"waitTime": 5}]
- ]
-}
+  {
+    "dashboard": [
+      {"cards": [{"averageWaitTime": 5, "averageToday": 3}, {"liveChatsQueue": 2}, {"activeBotChats": 10}, {"activeLiveChats": 4}]}
+    ]
+  }
 ]
