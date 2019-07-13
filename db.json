@@ -1,72 +1,87 @@
 [{
-  "dashboard": {
-    "cards": [{
-      "averageWaitTime": 5,
-      "averageToday": 3
-    }, {
-      "liveChatsQueue": 2
-    }, {
-      "activeBotChats": 10
-    }, {
-      "activeLiveChats": 4
-    }],
-    "charts": [{
-      "volumesByChannel": {
-        "data": {
-          "labels": ["M", "T", "W", "T", "F", "S", "S"],
-          "series": [
-            [12, 17, 7, 17, 23, 18, 38],
-            [12, 23, 10, 17, 15, 18, 13],
-            [39, 31, 22, 17, 23, 18, 28]
-          ]
-        },
-        "options": {
-          "low": 0,
-          "high": 50
-        }
-      },
-      "callsBySantiment": {
-        "data": {
-          "labels": ["Ja", "Fe", "Ma", "Ap", "Mai", "Ju", "Jul", "Au", "Se", "Oc", "No", "De"],
-          "series": [
-            [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
+	"dashboard": {
+		"cards": [{
+			"averageWaitTime": 5,
+			"averageToday": 3
+		}, {
+			"liveChatsQueue": 2
+		}, {
+			"activeBotChats": 10
+		}, {
+			"activeLiveChats": 4
+		}],
+		"charts": [{
+			"volumesByChannel": {
+				"data": {
+					"labels": ["M", "T", "W", "T", "F", "S", "S"],
+					"series": [
+						[12, 17, 7, 17, 23, 18, 38],
+						[12, 23, 10, 17, 15, 18, 13],
+						[39, 31, 22, 17, 23, 18, 28]
+					]
+				},
+				"options": {
+					"low": 0,
+					"high": 50
+				}
+			},
+			"callsBySantiment": {
+				"data": {
+					"labels": ["Ja", "Fe", "Ma", "Ap", "Mai", "Ju", "Jul", "Au", "Se", "Oc", "No", "De"],
+					"series": [
+						[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
 
-          ]
-        },
-        "options": {
-          "axisX": {
-            "showGrid": false
-          },
-          "low": 0,
-          "high": 1000
-        }
-      },
-      "trendingRepairs": {
-        "data": {
-          "labels": ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-          "series": [
-            [230, 750, 450, 300, 280, 240, 200, 190]
-          ]
-        },
-        "options": {
-          "tension": 0
-        },
-        "low": 0,
-        "high": 1000
-      }
-    }],
-    "dataTables": {
-      "chatSessions": {
-        "attributes": ["ID", "Advisor", "Enquiry Type", "Status"],
-        "activeChatSessions": 3,
-        "latestChats": [
-          {"name": "Jack Jonson", "type": "Repair", "status": "Active"},
-          {"name": "Steve Park", "type": "ASB", "status": "Active"},
-          {"name": "Patrick Stevenson", "type": "Repair", "status": "Complete"},
-          {"name": "Yojan Yojan", "type": "Repair", "status": "Complete"}
-        ]
-      },
-      "tasks": []
-    }
-  }
+					]
+				},
+				"options": {
+					"axisX": {
+						"showGrid": false
+					},
+					"low": 0,
+					"high": 1000
+				}
+			},
+			"trendingRepairs": {
+				"data": {
+					"labels": ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
+					"series": [
+						[230, 750, 450, 300, 280, 240, 200, 190]
+					]
+				},
+				"options": {
+					"tension": 0
+				},
+				"low": 0,
+				"high": 1000
+			}
+		}],
+		"dataTables": {
+			"chatSessions": {
+				"attributes": ["ID", "Advisor", "Enquiry Type", "Status"],
+				"activeChatSessions": 3,
+				"latestChats": [{
+						"name": "Jack Jonson",
+						"type": "Repair",
+						"status": "Active"
+					},
+					{
+						"name": "Steve Park",
+						"type": "ASB",
+						"status": "Active"
+					},
+					{
+						"name": "Patrick Stevenson",
+						"type": "Repair",
+						"status": "Complete"
+					},
+					{
+						"name": "Yojan Yojan",
+						"type": "Repair",
+						"status": "Complete"
+					}
+				]
+			},
+			"tasks": []
+		}
+	}
 }]
