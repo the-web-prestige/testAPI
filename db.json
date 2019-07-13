@@ -1,9 +1,9 @@
 [
 {
- dashboard: [
-  cards: [
-    waitTime: {
-     time: 5
+ "dashboard": [
+  "cards": [
+    "waitTime": {
+     "time": 5
     }
   ]
  ]
